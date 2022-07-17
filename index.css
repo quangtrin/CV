@@ -2,6 +2,7 @@ body{
     font-size: 20px;
     padding: 2rem;
     margin: 0;
+    box-sizing: border-box;
 }
 html{
     margin: 0;
@@ -35,6 +36,7 @@ img{
 .boder-right{
     padding-right: 4rem;
     border-right: 1px dashed rgb(2, 161, 139);
+    margin-bottom: 4rem;
 }
 .padding-left{
     padding-left: 2rem;

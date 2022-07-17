@@ -1,0 +1,48 @@
+body{
+    font-size: 20px;
+    padding: 2rem;
+    margin: 0;
+}
+html{
+    margin: 0;
+}
+.row{
+    background-color: aqua;
+}
+.col-1-of-2:not(:last-child){
+    margin-right: 2rem;
+}
+.col-1-of-2{
+    /* background-color: yellowgreen; */
+    float: left;
+    width: calc((100% - 2rem-1px)/2);
+}
+h1,h2,h3{
+    color: rgb(2, 161, 139);
+}
+.content{
+    position: relative;
+}
+img{
+    position: absolute;
+    top: -0.5rem;
+    width: 2rem;
+    height: 2rem;
+}
+.text{
+    margin-left: 2.5rem;
+}
+.boder-right{
+    padding-right: 4rem;
+    border-right: 1px dashed rgb(2, 161, 139);
+}
+.padding-left{
+    padding-left: 2rem;
+}
+.avatar{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5rem;
+    position: relative;
+
+}

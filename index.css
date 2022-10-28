@@ -12,6 +12,7 @@ header{
 *{
     box-sizing: border-box;
 }
+
 body{
     font-size: 20px;
     margin: 2rem var(--margin-right-body);
@@ -36,7 +37,9 @@ body{
 h1,h2,h3{
     color: rgb(2, 161, 139);
 }
-
+a{
+    text-decoration: none;
+}
 .content{
     position: relative;
 }
